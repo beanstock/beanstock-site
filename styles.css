@@ -1,0 +1,149 @@
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    min-width:300px;
+}
+
+.background-image-full-screen {
+background: url(img/boxcar_art.jpeg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+}
+.centeredContainer{
+  margin-top: 10%;
+  padding-top: 10%;
+  margin-left: 10%;
+    margin: 0 auto;
+  height: 80%;
+  width: 80%;
+     min-width:300px;
+     transition:all .2s linear;
+       -o-transition:all .2s linear;
+       -moz-transition:all .2s linear;
+       -webkit-transition:all .2s linear;
+
+}
+.topHalfOfContainer{
+
+}
+.centeredText{
+  text-align: center;
+}
+.titleText{
+  padding:8px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 38;
+  color: white;
+
+}
+.white{
+  color: white;
+}
+.subTitleText{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18;
+  color: white;
+}
+.box{
+  max-width:226px;
+  border-style: solid;
+  border-color: white;
+  padding-top: 7px;
+  padding-bottom: 8px;
+  margin:0 auto;
+}
+.fineText{
+  padding:8px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12;
+  color: white;
+  text-shadow: 1px 1px 0px rgba(0,0,0, 0.5);
+
+}
+.map{
+  display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+
+
+.beanstock-logo{
+  width:60px;
+  display: block;
+   margin: 0 auto;
+}
+.bottomHalfOfContainer{
+  ;
+display: flex;
+justify-content: center;
+max-width:400px;
+padding-top: 7px;
+padding-bottom: 8px;
+margin:0 auto;
+transition:all .2s linear;
+  -o-transition:all .2s linear;
+  -moz-transition:all .2s linear;
+  -webkit-transition:all .2s linear;
+
+margin-top: 10px;
+background: rgba(110, 191, 100, 0.5);
+}
+
+.left{
+
+ width: 50%;
+ float:left;
+}
+.right{
+
+ width: 50%;
+ float:left;
+}
+
+.register{
+  font-size: 14;
+}
+.tagline{
+  padding:10px;
+  font-size: 28;
+  font-weight: bold;
+  line-height: 85%;
+}
+.emailButton{
+
+}
+
+.inverted {
+	filter: invert(100%);
+}
+
+@media only screen and (max-width: 400px) {
+  .bottomHalfOfContainer {
+    flex-direction: column-reverse;
+    margin-top: 30px;
+  }
+  .left{
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+
+  }
+  .tagline{
+    font-size: 20;
+    text-align: center;
+
+  }
+  .centeredContainer {
+
+    margin-top: 0%;
+    margin-left: 0%;
+      width: 100%;
+  }
+
+}
