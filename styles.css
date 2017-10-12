@@ -14,10 +14,30 @@ background-size: cover;
 
 }
 
+.clear{
+  display:none;
+}
+
+
+
+#map {
+       height: 150px;
+       max-width: 400px;
+       margin:auto;
+     }
+
+
+
+
+
 #mailchimp {
 	/*background: #f8f8f8;
 	color: #3D6392;*/
-	padding: 20px 15px;
+
+  padding-top: 20px;
+padding-right: 15px;
+padding-bottom: 0px;
+padding-left: 15px;
 }
 	#mailchimp input {
 		 border: medium none;
@@ -109,7 +129,7 @@ background-size: cover;
    margin: 0 auto;
 }
 .bottomHalfOfContainer{
-  
+
 display: flex;
 justify-content: center;
 max-width:400px;

@@ -3,6 +3,7 @@
 
 <link rel="stylesheet" type="text/css" href="styles.css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<script src="script.js"></script>
 
 </head>
 
@@ -15,12 +16,13 @@
             <div class="centeredText fineText" href=""><a href="https://goo.gl/maps/f6NXDXri8Xs" style="text-decoration: none; font-weight: normal; color: #ffffff ;">VANCOUVER. BC - 298 ALEXANDER</a></div>
 
         </div>
-        <div class="map">
-            <iframe class="iframe" src="https://www.google.com/maps/embed/v1/place?q=298+Alexander+St,+Vancouver,+BC+V6A,+Canada
-            &zoom=13
-            &key=AIzaSyAkjlas3-9AdUSa3_KvHWTuLUjR88AlETk">
-            </iframe>
+        <div class="map" id="map">
+        
+
+
           </div>
+
+
 
 
         <div class="bottomHalfOfContainer">
@@ -59,4 +61,6 @@
           </div>
       </div
     </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQTCW0_JZnV4sBBwhVRv7hUksZ5EbktZE&callback=initMap"
+async defer></script>
 </body>
