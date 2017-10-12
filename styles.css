@@ -13,6 +13,37 @@ background: url(img/boxcar_art.jpeg) no-repeat center center fixed;
 background-size: cover;
 
 }
+
+#mailchimp {
+	/*background: #f8f8f8;
+	color: #3D6392;*/
+	padding: 20px 15px;
+}
+	#mailchimp input {
+		 border: medium none;
+    color: gray;
+    font-family: times new roman;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    width: 100%;
+		border-radius: 20px;
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;
+	}
+		#mailchimp input.email { background: #fff }
+		#mailchimp input.name { background: #fff}
+		#mailchimp input[type="submit"] {
+			background: #115B87;
+			color: #fff;
+			cursor: pointer;
+			font-size: 11px;
+			width: 0%;
+			padding: 8px 0;
+
+		}
+			#mailchimp input[type="submit"]:hover { color: #F2C94C }
 .centeredContainer{
   margin-top: 10%;
   padding-top: 10%;
@@ -20,7 +51,7 @@ background-size: cover;
     margin: 0 auto;
   height: 80%;
   width: 80%;
-     min-width:300px;
+     min-width:2;
      transition:all .2s linear;
        -o-transition:all .2s linear;
        -moz-transition:all .2s linear;
@@ -78,7 +109,7 @@ background-size: cover;
    margin: 0 auto;
 }
 .bottomHalfOfContainer{
-  ;
+  
 display: flex;
 justify-content: center;
 max-width:400px;
@@ -106,6 +137,7 @@ background: rgba(110, 191, 100, 0.5);
 }
 
 .register{
+  padding-top:10px;
   font-size: 14;
 }
 .tagline{
@@ -122,7 +154,7 @@ background: rgba(110, 191, 100, 0.5);
 	filter: invert(100%);
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 539px) {
   .bottomHalfOfContainer {
     flex-direction: column-reverse;
     margin-top: 30px;
