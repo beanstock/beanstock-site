@@ -5,12 +5,20 @@ html {
     min-width:300px;
 }
 
+
+
+
+
+
 .background-image-full-screen {
-background: url(img/boxcar_art.jpeg) no-repeat center center fixed;
+background: url(img/boxcar_art_sm.jpg) no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/boxcar_art_sm.jpg', sizingMethod='scale')";
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/boxcar_art_prog.sm.jpg', sizingMethod='scale');
+
 
 }
 
