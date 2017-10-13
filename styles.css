@@ -89,6 +89,12 @@ padding-left: 15px;
 .topHalfOfContainer{
 
 }
+.kerning{
+  letter-spacing: 2px;
+}
+.kerning-g{
+  letter-spacing: .5px;
+}
 .centeredText{
   text-align: center;
 }
@@ -96,6 +102,7 @@ padding-left: 15px;
   padding:8px;
   font-family: 'Montserrat', sans-serif;
   font-size: 38;
+  letter-spacing: 8px;
   color: white;
 
 }
@@ -108,12 +115,14 @@ padding-left: 15px;
   color: white;
 }
 .box{
-  max-width:226px;
+  max-width:298px;
   border-style: solid;
   border-color: white;
   padding-top: 7px;
   padding-bottom: 8px;
   margin:0 auto;
+  /*margin-top: 4px;
+  margin-bottom: 4px;*/
 }
 .fineText{
   padding:8px;
@@ -127,6 +136,12 @@ padding-left: 15px;
   display: flex;
      align-items: center;
      justify-content: center;
+
+}
+
+.extra-margin{
+  margin-top: 13px;
+  margin-bottom: 13px;
 }
 
 
@@ -154,12 +169,12 @@ background: rgba(110, 191, 100, 0.5);
 }
 
 .left{
-
+ margin-left:12px;
  width: 50%;
  float:left;
 }
 .right{
-
+margin-left:12px;
  width: 50%;
  float:left;
 }
