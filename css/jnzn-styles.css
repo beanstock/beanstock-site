@@ -313,3 +313,9 @@ div  .navbar-default .navbar-nav {
 .padding-top{
   padding-top: 40px;
 }
+
+.icon-text {
+      font-weight: 400;
+          letter-spacing: 1px;
+              color: #fff;
+}
